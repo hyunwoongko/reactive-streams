@@ -1,3 +1,5 @@
+package concept;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Flow.Publisher;
@@ -20,7 +22,7 @@ public class _5_Concurrent {
 
         Subscriber<Integer> subscriber = new Subscriber<>() {
             Subscription subscription;
- 
+
             @Override public void onSubscribe(Subscription subscription) {
                 this.subscription = subscription;
             }
