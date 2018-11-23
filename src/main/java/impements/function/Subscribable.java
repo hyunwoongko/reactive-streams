@@ -1,6 +1,7 @@
-package impements.subscriber;
+package impements.function;
 
 
+import impements.protocol.Subscriber;
 import impements.subscription.Subscription;
 
 import java.util.concurrent.Executor;

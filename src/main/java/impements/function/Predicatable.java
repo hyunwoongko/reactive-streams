@@ -1,4 +1,4 @@
-package impements.subscriber;
+package impements.function;
 
 import impements.subscription.Subscription;
 
@@ -10,8 +10,9 @@ import java.util.concurrent.Executor;
  * @Homepage : https://github.com/gusdnd852
  */
 
+
 @FunctionalInterface
-public interface Flowable<T> extends Subscribable<T, Object> {
+public interface Predicatable<T> extends Subscribable<T, Object> {
 
     @Override
     default void onError(Throwable throwable){}
@@ -23,17 +24,18 @@ public interface Flowable<T> extends Subscribable<T, Object> {
     default void onSubscribe(Subscription subscription) {}
 
     @Override
-    default Boolean onCheck(T input)  {return null;}
+    default Object onMap(T input) {return null;}
 
     @Override
-    default Object onMap(T input)  {return null;}
+    Boolean onCheck(T input);
 
     @Override
-    void onNext(T input);
+    default void onNext(T input) {}
 
     @Override
     default Executor onFork()  {return null;}
 
     @Override
     default Boolean onJoin(){return null;}
+
 }

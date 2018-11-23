@@ -1,6 +1,7 @@
 package impements.publisher;
 
-import impements.subscriber.*;
+import impements.function.*;
+import impements.protocol.Subscriber;
 import impements.subscription.Subscription;
 
 import java.util.ArrayList;
@@ -35,7 +36,7 @@ public class Flux {
         return new Flux(inputs);
     }
 
-    public static Flux just() {
+    public static Flux empty() {
         return new Flux();
     }
 

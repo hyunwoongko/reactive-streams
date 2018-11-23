@@ -1,9 +1,10 @@
-package impements.subscriber;
+package impements.protocol;
 
 import impements.subscription.Subscription;
 
 /**
- * @Author : Hyunwoong
+ * @Author : Doug Lea
+ * @Weaver : Hyunwoong
  * @When : 2018-11-23 오후 9:56
  * @Homepage : https://github.com/gusdnd852
  */

@@ -1,6 +1,7 @@
 package impements.publisher;
 
-import impements.subscriber.*;
+import impements.function.*;
+import impements.protocol.Subscriber;
 import impements.subscription.Subscription;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -29,7 +30,7 @@ public class Mono {
         return new Mono(input);
     }
 
-    public static Mono just() {
+    public static Mono empty() {
         return new Mono();
     }
 

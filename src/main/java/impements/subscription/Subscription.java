@@ -1,8 +1,8 @@
 package impements.subscription;
 
 import impements.Executors;
-import impements.subscriber.Subscribable;
-import impements.subscriber.Subscriber;
+import impements.protocol.Subscriber;
+import impements.function.Subscribable;
 
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -17,7 +17,7 @@ import java.util.stream.StreamSupport;
  * @Homepage : https://github.com/gusdnd852
  */
 @SuppressWarnings("unchecked")
-public class Subscription {
+public class Subscription implements impements.protocol.Subscription {
 
     private ConcurrentLinkedQueue<Subscribable> subscribers;
     private Subscriber handler;
@@ -58,31 +58,36 @@ public class Subscription {
         final Object[] semanticInput = {input};
         final Executor[] executor = {Executors.mainThread()};
         final CountDownLatch[] doneSignal = {new CountDownLatch(count)};
+
         if (backPressure < 0) backPressure = Long.MAX_VALUE;
+        /*오버플로 핸들링*/
 
         for (Iterator<Subscribable> iterator = subscribers.iterator(); iterator.hasNext() && backPressure > 0; backPressure--) {
             final long finalBackPressure = backPressure;
             Subscribable subscriber = iterator.next();
             this.methodCount++;
 
-            try {
+            try { /*FILTER 체크*/
                 if (subscriber.onCheck(semanticInput[0]) != null) {
                     if (executor[0].equals(Executors.mainThread())) {
                         filter = subscriber.onCheck(semanticInput[0]);
                         continue;
                     } else throw new IllegalStateException("fork 중에는 next만 사용해주세요");
                 }
+
                 if (!filter) continue;
-                if (subscriber.onJoin() != null) {
+
+                if (subscriber.onJoin() != null) { /*JOIN 체크*/
                     if (!lock) lock = subscriber.onJoin();
                     else throw new IllegalStateException("불필요한 join 명령입니다.");
                     continue;
                 }
-                if (lock) {
+                if (lock) { /*LOCK*/
                     doneSignal[0].await();
                     executor[0] = Executors.mainThread();
                 }
-                if (subscriber.onFork() != null) {
+
+                if (subscriber.onFork() != null) { /*FORK 체크*/
                     if (executor[0].equals(Executors.mainThread())) {
                         executor[0] = subscriber.onFork();
                         doneSignal[0] = new CountDownLatch(count);
@@ -90,12 +95,13 @@ public class Subscription {
                     } else throw new IllegalStateException("불필요한 fork 명령입니다.");
                     continue;
                 }
-                executor[0].execute(() -> {
+
+                executor[0].execute(() -> { /*실행 세션*/
                     Object temp = null;
                     try {
                         temp = subscriber.onMap(semanticInput[0]);
                         if (temp == null) subscriber.onNext(semanticInput[0]);
-                    } catch (Exception e) {
+                    } catch (Exception e) { /*ERROR 핸들링 - 멀티 쓰레드*/
                         errorCount++;
                         if (errorCount == 1) {
                             completeCount++;
@@ -104,10 +110,12 @@ public class Subscription {
                             return;
                         }
                     }
-                    if (temp != null) {
+                    if (temp != null) { /* MAP연산 출력을 입력으로 ASSIGN*/
                         if (executor[0].equals(Executors.mainThread())) semanticInput[0] = temp;
                         else throw new IllegalStateException("fork 중에는 next만 사용해주세요.");
                     }
+
+                    /*COMPLETE 리스너*/
                     if ((numberOfInput * subscribers.size() == methodCount && !iterator.hasNext()) || finalBackPressure / numberOfInput == 1) {
                         completeCount++;
                         if (completeCount == 1)
@@ -115,7 +123,7 @@ public class Subscription {
                     }
                     doneSignal[0].countDown();
                 });
-            } catch (Exception e) {
+            } catch (Exception e) { /*ERROR 핸들링 - 단일 쓰레드*/
                 cancel();
                 handler.onError(e);
                 return;

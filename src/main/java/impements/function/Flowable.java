@@ -1,4 +1,4 @@
-package impements.subscriber;
+package impements.function;
 
 import impements.subscription.Subscription;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.Executor;
  */
 
 @FunctionalInterface
-public interface Forkable extends Subscribable {
+public interface Flowable<T> extends Subscribable<T, Object> {
 
     @Override
     default void onError(Throwable throwable){}
@@ -23,17 +23,17 @@ public interface Forkable extends Subscribable {
     default void onSubscribe(Subscription subscription) {}
 
     @Override
-    default Boolean onCheck(Object input) {return null;}
+    default Boolean onCheck(T input)  {return null;}
 
     @Override
-    default Object onMap(Object input) {return null;}
+    default Object onMap(T input)  {return null;}
 
     @Override
-    default void onNext(Object input) {}
+    void onNext(T input);
+
+    @Override
+    default Executor onFork()  {return null;}
 
     @Override
     default Boolean onJoin(){return null;}
-
-    @Override
-    Executor onFork();
 }

@@ -1,4 +1,4 @@
-package impements.subscriber;
+package impements.function;
 
 import impements.subscription.Subscription;
 
@@ -10,9 +10,8 @@ import java.util.concurrent.Executor;
  * @Homepage : https://github.com/gusdnd852
  */
 
-
 @FunctionalInterface
-public interface Joinable extends Subscribable {
+public interface Mappable<T, R> extends Subscribable<T, R> {
 
     @Override
     default void onError(Throwable throwable){}
@@ -24,17 +23,17 @@ public interface Joinable extends Subscribable {
     default void onSubscribe(Subscription subscription) {}
 
     @Override
-    default Boolean onCheck(Object input) {return null;}
+    default Boolean onCheck(T input)  {return null;}
 
     @Override
-    default Object onMap(Object input) {return null;}
+    default void onNext(T input)  {}
 
     @Override
-    default void onNext(Object input) {}
-
-    @Override
-    Boolean onJoin();
+    R onMap(T input);
 
     @Override
     default Executor onFork()  {return null;}
+
+    @Override
+    default Boolean onJoin(){return null;}
 }
