@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="Reactive-Streams" target="11" />
+      <module name="Reactive-Streams" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
