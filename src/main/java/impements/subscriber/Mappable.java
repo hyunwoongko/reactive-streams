@@ -1,7 +1,8 @@
 package impements.subscriber;
 
+import impements.subscription.Subscription;
+
 import java.util.concurrent.Executor;
-import java.util.concurrent.Flow;
 
 /**
  * @Author : Hyunwoong
@@ -10,7 +11,7 @@ import java.util.concurrent.Flow;
  */
 
 @FunctionalInterface
-public interface Mappable<T, R> extends Subscriber<T, R> {
+public interface Mappable<T, R> extends Subscribable<T, R> {
 
     @Override
     default void onError(Throwable throwable){}
@@ -19,7 +20,7 @@ public interface Mappable<T, R> extends Subscriber<T, R> {
     default void onComplete(){}
 
     @Override
-    default void onSubscribe(Flow.Subscription subscription) {}
+    default void onSubscribe(Subscription subscription) {}
 
     @Override
     default Boolean onCheck(T input)  {return null;}

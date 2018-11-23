@@ -1,10 +1,9 @@
 package impements.publisher;
 
-import impements.subscription.Subscription;
 import impements.subscriber.*;
+import impements.subscription.Subscription;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.Flow;
 
 /**
  * @Author : Hyunwoong
@@ -13,9 +12,9 @@ import java.util.concurrent.Flow;
  */
 
 @SuppressWarnings("unchecked")
-public class Mono implements Flow.Publisher {
+public class Mono {
 
-    private ConcurrentLinkedQueue<Subscriber> subscribers = new ConcurrentLinkedQueue<>();
+    private ConcurrentLinkedQueue<Subscribable> subscribers = new ConcurrentLinkedQueue<>();
     private Subscription subscription = new Subscription();
     protected Object input;
 
@@ -79,8 +78,7 @@ public class Mono implements Flow.Publisher {
         return this;
     }
 
-    @Override
-    public void subscribe(Flow.Subscriber handler) {
+    public void subscribe(Subscriber handler) {
         handler.onSubscribe(subscription.with(input)
                 .setHandler(handler)
                 .setSubscribers(subscribers));

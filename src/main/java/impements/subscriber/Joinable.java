@@ -1,7 +1,8 @@
 package impements.subscriber;
 
+import impements.subscription.Subscription;
+
 import java.util.concurrent.Executor;
-import java.util.concurrent.Flow;
 
 /**
  * @Author : Hyunwoong
@@ -11,7 +12,7 @@ import java.util.concurrent.Flow;
 
 
 @FunctionalInterface
-public interface Joinable extends Subscriber {
+public interface Joinable extends Subscribable {
 
     @Override
     default void onError(Throwable throwable){}
@@ -20,7 +21,7 @@ public interface Joinable extends Subscriber {
     default void onComplete(){}
 
     @Override
-    default void onSubscribe(Flow.Subscription subscription) {}
+    default void onSubscribe(Subscription subscription) {}
 
     @Override
     default Boolean onCheck(Object input) {return null;}

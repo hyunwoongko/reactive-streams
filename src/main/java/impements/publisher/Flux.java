@@ -1,25 +1,30 @@
 package impements.publisher;
 
-import impements.subscription.Subscription;
 import impements.subscriber.*;
+import impements.subscription.Subscription;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.Flow;
 
 /**
  * @Author : Hyunwoong
  * @When : 2018-11-23 오후 7:26
  * @Homepage : https://github.com/gusdnd852
  */
-public class Flux implements Flow.Publisher {
-    private ConcurrentLinkedQueue<Subscriber> subscribers = new ConcurrentLinkedQueue<>();
+public class Flux {
+    private ConcurrentLinkedQueue<Subscribable> subscribers = new ConcurrentLinkedQueue<>();
     private Subscription subscription = new Subscription();
-    protected List<Object> inputs;
+    private List<Object> inputs = new ArrayList<>();
 
     private Flux(Object[] inputs) {
-        this.inputs = Arrays.asList(inputs);
+        for (Object input : inputs) {
+            if (input instanceof Iterable)
+                for (Object once : (Iterable) input)
+                    this.inputs.add(once);
+
+            else this.inputs.add(input);
+        }
     }
 
     private Flux() {
@@ -33,6 +38,7 @@ public class Flux implements Flow.Publisher {
     public static Flux just() {
         return new Flux();
     }
+
 
     public <T> Flux switchNext(Predicatable<T> predicatable,
                                Flowable<T> TRUE,
@@ -69,8 +75,17 @@ public class Flux implements Flow.Publisher {
         return this;
     }
 
-    @Override
-    public void subscribe(Flow.Subscriber handler) {
+    public Flux fork(Forkable subscriber) {
+        subscribers.add(subscriber);
+        return this;
+    }
+
+    public Flux join() {
+        subscribers.add((Joinable) () -> true);
+        return this;
+    }
+
+    public void subscribe(Subscriber handler) {
         handler.onSubscribe(subscription.with(inputs)
                 .setHandler(handler)
                 .setSubscribers(subscribers));
