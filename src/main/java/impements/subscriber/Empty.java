@@ -16,6 +16,10 @@ public class Empty implements Subscriber<Long> {
     private Consumer<Throwable> errorHandler;
     private Runnable completeListener;
 
+    public static Empty create() {
+        return new Empty();
+    }
+
     public Empty error(Consumer<Throwable> errorHandler) {
         this.errorHandler = errorHandler;
         return this;

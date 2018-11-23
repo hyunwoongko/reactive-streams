@@ -15,6 +15,9 @@ public class With implements Subscriber {
     private Consumer<Throwable> errorHandler;
     private Runnable completeListener;
 
+    public static With create(){
+        return new With();
+    }
     public With error(Consumer<Throwable> errorHandler) {
         this.errorHandler = errorHandler;
         return this;
