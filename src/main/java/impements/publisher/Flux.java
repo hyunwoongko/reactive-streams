@@ -61,23 +61,23 @@ public class Flux {
         return this;
     }
 
-    public <T> Flux next(Flowable<T> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Flux next(Flowable<T> flowable) {
+        subscribers.add(flowable);
         return this;
     }
 
-    public <T> Flux map(Mappable<T, Object> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Flux map(Mappable<T, Object> mappable) {
+        subscribers.add(mappable);
         return this;
     }
 
-    public <T> Flux filter(Predicatable<T> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Flux filter(Predicatable<T> predicatable) {
+        subscribers.add(predicatable);
         return this;
     }
 
-    public Flux fork(Forkable subscriber) {
-        subscribers.add(subscriber);
+    public Flux fork(Forkable forkable) {
+        subscribers.add(forkable);
         return this;
     }
 

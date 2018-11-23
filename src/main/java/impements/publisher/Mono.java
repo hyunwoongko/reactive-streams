@@ -54,23 +54,23 @@ public class Mono {
         return this;
     }
 
-    public <T> Mono next(Flowable<T> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Mono next(Flowable<T> flowable) {
+        subscribers.add(flowable);
         return this;
     }
 
-    public <T> Mono map(Mappable<T, Object> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Mono map(Mappable<T, Object> mappable) {
+        subscribers.add(mappable);
         return this;
     }
 
-    public <T> Mono filter(Predicatable<T> subscriber) {
-        subscribers.add(subscriber);
+    public <T> Mono filter(Predicatable<T> predicatable) {
+        subscribers.add(predicatable);
         return this;
     }
 
-    public Mono fork(Forkable subscriber) {
-        subscribers.add(subscriber);
+    public Mono fork(Forkable forkable) {
+        subscribers.add(forkable);
         return this;
     }
 
