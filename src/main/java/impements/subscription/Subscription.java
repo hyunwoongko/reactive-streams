@@ -84,14 +84,15 @@ public class Subscription implements impements.protocol.Subscription {
                 }
                 if (lock) { /*LOCK*/
                     doneSignal[0].await();
-                    executor[0] = Executors.mainThread();
+                    if(doneSignal[0].getCount()==1){
+                        executor[0] = Executors.mainThread();
+                    }
                 }
 
                 if (subscriber.onFork() != null) { /*FORK 체크*/
                     if (executor[0].equals(Executors.mainThread())) {
                         executor[0] = subscriber.onFork();
                         doneSignal[0] = new CountDownLatch(count);
-                        lock = false;
                     } else throw new IllegalStateException("불필요한 fork 명령입니다.");
                     continue;
                 }
