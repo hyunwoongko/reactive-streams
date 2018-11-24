@@ -8,6 +8,8 @@ import java.util.Iterator;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.StreamSupport;
 
@@ -59,6 +61,7 @@ public class Subscription implements impements.protocol.Subscription {
         boolean filter = true;
         boolean lock = false;
         final int count = 2;
+        AtomicInteger forkCount = new AtomicInteger();
 
         final Executor[] executor = {Executors.mainThread()};
         final CountDownLatch[] doneSignal = {new CountDownLatch(count)};
@@ -84,8 +87,10 @@ public class Subscription implements impements.protocol.Subscription {
                 }
                 if (lock) { /*LOCK*/
                     doneSignal[0].await();
-                    if(doneSignal[0].getCount()==1){
+                    TimeUnit.MICROSECONDS.sleep(1);
+                    if (executor[0] != Executors.mainThread()) {
                         executor[0] = Executors.mainThread();
+                        doneSignal[0].await();
                     }
                 }
 
@@ -93,6 +98,7 @@ public class Subscription implements impements.protocol.Subscription {
                     if (executor[0].equals(Executors.mainThread())) {
                         executor[0] = subscriber.onFork();
                         doneSignal[0] = new CountDownLatch(count);
+                        lock = false;
                     } else throw new IllegalStateException("불필요한 fork 명령입니다.");
                     continue;
                 }
@@ -121,8 +127,13 @@ public class Subscription implements impements.protocol.Subscription {
                     if ((numberOfInput * subscribers.size() == methodCount && !iterator.hasNext())) {
                         completeCount++;
                         if (completeCount == 1) {
-                            handler.onComplete();
-                            methodCount = 0;
+                            try {
+                                TimeUnit.MICROSECONDS.sleep(5);
+                                methodCount = 0;
+                                handler.onComplete();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
                         }
                     }
                     doneSignal[0].countDown();
