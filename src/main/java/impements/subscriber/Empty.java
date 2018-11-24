@@ -10,7 +10,7 @@ import java.util.function.Consumer;
  * @When : 2018-11-24 오전 5:37
  * @Homepage : https://github.com/gusdnd852
  */
-public class Empty implements Subscriber<Long> {
+public class Empty implements Subscriber<Void> {
 
     private Subscription subscription;
     private Consumer<Throwable> errorHandler;
@@ -43,7 +43,7 @@ public class Empty implements Subscriber<Long> {
         this.subscription = subscription;
     }
 
-    @Override public void onNext(Long backPressure) {
-        subscription.request(backPressure);
+    @Override public void onNext(Void nullInput) {
+        subscription.request();
     }
 }

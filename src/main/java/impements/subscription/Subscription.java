@@ -42,32 +42,20 @@ public class Subscription implements impements.protocol.Subscription {
         return this;
     }
 
-    public synchronized void request(long backPressure) {
+    public synchronized void request() {
         if (input.get() instanceof Iterable) {
             for (Object once : (Iterable<?>) input.get()) {
                 long numberOfInput = StreamSupport.stream(((Iterable<?>) input.get()).spliterator(), false).count();
                 Object[] effectiveFinalInput = {once};
-
-                if (backPressure == Long.MAX_VALUE || backPressure < 0 || backPressure * numberOfInput < 0) {
-                    session(Long.MAX_VALUE, numberOfInput, effectiveFinalInput);
-                } else if ((backPressure * numberOfInput > 0) && backPressure > 0) {   /* 배압을 정상적으로 설정한 경우*/
-                    session(backPressure * numberOfInput, numberOfInput, effectiveFinalInput);
-
-                } else /* 오버플로가 발생한 경우*/
-                    break;
-
-                backPressure--;
+                session(numberOfInput, effectiveFinalInput);
             }
         } else {
             Object[] effectiveFinalInput = {input.get()};
-            if (backPressure < 0) /* 배압을 음수로 설정한 경우*/
-                session(Long.MAX_VALUE, 1, effectiveFinalInput);
-            else /* 배압을 정상적으로 설정한 경우*/
-                session(backPressure, 1, effectiveFinalInput);
+            session(1, effectiveFinalInput);
         }
     }
 
-    private void session(long backPressure, long numberOfInput, Object[] input) {
+    private void session(long numberOfInput, Object[] input) {
         boolean filter = true;
         boolean lock = false;
         final int count = 2;
@@ -75,7 +63,7 @@ public class Subscription implements impements.protocol.Subscription {
         final Executor[] executor = {Executors.mainThread()};
         final CountDownLatch[] doneSignal = {new CountDownLatch(count)};
 
-        for (Iterator<Subscribable> iterator = subscribers.iterator(); iterator.hasNext() && backPressure > 0; ) {
+        for (Iterator<Subscribable> iterator = subscribers.iterator(); iterator.hasNext(); ) {
             Subscribable subscriber = iterator.next();
             this.methodCount++;
 

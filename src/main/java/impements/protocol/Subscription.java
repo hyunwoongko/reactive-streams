@@ -7,7 +7,7 @@ package impements.protocol;
  * @Homepage : https://github.com/gusdnd852
  */
 public interface Subscription {
-    void request(long n);
+    void request(); // 배압 구현 못함.
 
     void cancel();
 }
