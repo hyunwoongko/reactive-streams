@@ -16,14 +16,13 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 public class Mono {
 
     private ConcurrentLinkedQueue<Subscribable> subscribers = new ConcurrentLinkedQueue<>();
-    private Subscription subscription = new Subscription();
     protected Object input;
 
-    protected <T> Mono(T input) {
+    private <T> Mono(T input) {
         this.input = input;
     }
 
-    protected Mono() {
+    private Mono() {
     }
 
     public static <T> Mono with(T input) {
@@ -80,7 +79,8 @@ public class Mono {
     }
 
     public void subscribe(Subscriber handler) {
-        handler.onSubscribe(subscription.with(input)
+        handler.onSubscribe(new Subscription()
+                .with(input)
                 .setHandler(handler)
                 .setSubscribers(subscribers));
     }

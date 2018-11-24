@@ -14,10 +14,12 @@ public class With implements Subscriber {
     private Subscription subscription;
     private Consumer<Throwable> errorHandler;
     private Runnable completeListener;
+    private long backPressure = Long.MAX_VALUE;
 
-    public static With create(){
+    public static With create() {
         return new With();
     }
+
     public With error(Consumer<Throwable> errorHandler) {
         this.errorHandler = errorHandler;
         return this;
@@ -25,6 +27,11 @@ public class With implements Subscriber {
 
     public With complete(Runnable completeListener) {
         this.completeListener = completeListener;
+        return this;
+    }
+
+    public With backPressure(long backPressure) {
+        this.backPressure = backPressure;
         return this;
     }
 
@@ -42,6 +49,7 @@ public class With implements Subscriber {
     }
 
     @Override public void onNext(Object input) {
-        subscription.with(input).request(Long.MAX_VALUE);
+        subscription.with(input).request(backPressure);
     }
+
 }

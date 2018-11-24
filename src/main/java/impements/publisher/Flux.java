@@ -15,7 +15,6 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  */
 public class Flux {
     private ConcurrentLinkedQueue<Subscribable> subscribers = new ConcurrentLinkedQueue<>();
-    private Subscription subscription = new Subscription();
     private List<Object> inputs = new ArrayList<>();
 
     private Flux(Object[] inputs) {
@@ -87,7 +86,8 @@ public class Flux {
     }
 
     public void subscribe(Subscriber handler) {
-        handler.onSubscribe(subscription.with(inputs)
+        handler.onSubscribe(new Subscription()
+                .with(inputs)
                 .setHandler(handler)
                 .setSubscribers(subscribers));
     }

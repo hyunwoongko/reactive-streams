@@ -22,6 +22,7 @@ public class Subscription implements impements.protocol.Subscription {
     private ConcurrentLinkedQueue<Subscribable> subscribers;
     private Subscriber handler;
     private AtomicReference<Object> input = new AtomicReference<>();
+
     private int methodCount = 0;
     private int completeCount = 0;
     private int errorCount = 0;
@@ -45,32 +46,43 @@ public class Subscription implements impements.protocol.Subscription {
         if (input.get() instanceof Iterable) {
             for (Object once : (Iterable<?>) input.get()) {
                 long numberOfInput = StreamSupport.stream(((Iterable<?>) input.get()).spliterator(), false).count();
-                session(backPressure * numberOfInput, numberOfInput, once);
+                Object[] effectiveFinalInput = {once};
+
+                if (backPressure == Long.MAX_VALUE || backPressure < 0 || backPressure * numberOfInput < 0) {
+                    session(Long.MAX_VALUE, numberOfInput, effectiveFinalInput);
+                } else if ((backPressure * numberOfInput > 0) && backPressure > 0) {   /* 배압을 정상적으로 설정한 경우*/
+                    session(backPressure * numberOfInput, numberOfInput, effectiveFinalInput);
+
+                } else /* 오버플로가 발생한 경우*/
+                    break;
+
+                backPressure--;
             }
-        } else session(backPressure, 1, input.get());
+        } else {
+            Object[] effectiveFinalInput = {input.get()};
+            if (backPressure < 0) /* 배압을 음수로 설정한 경우*/
+                session(Long.MAX_VALUE, 1, effectiveFinalInput);
+            else /* 배압을 정상적으로 설정한 경우*/
+                session(backPressure, 1, effectiveFinalInput);
+        }
     }
 
-    private void session(long backPressure, long numberOfInput, Object input) {
+    private void session(long backPressure, long numberOfInput, Object[] input) {
         boolean filter = true;
         boolean lock = false;
         final int count = 2;
 
-        final Object[] semanticInput = {input};
         final Executor[] executor = {Executors.mainThread()};
         final CountDownLatch[] doneSignal = {new CountDownLatch(count)};
 
-        if (backPressure < 0) backPressure = Long.MAX_VALUE;
-        /*오버플로 핸들링*/
-
-        for (Iterator<Subscribable> iterator = subscribers.iterator(); iterator.hasNext() && backPressure > 0; backPressure--) {
-            final long finalBackPressure = backPressure;
+        for (Iterator<Subscribable> iterator = subscribers.iterator(); iterator.hasNext() && backPressure > 0; ) {
             Subscribable subscriber = iterator.next();
             this.methodCount++;
 
             try { /*FILTER 체크*/
-                if (subscriber.onCheck(semanticInput[0]) != null) {
+                if (subscriber.onCheck(input[0]) != null) {
                     if (executor[0].equals(Executors.mainThread())) {
-                        filter = subscriber.onCheck(semanticInput[0]);
+                        filter = subscriber.onCheck(input[0]);
                         continue;
                     } else throw new IllegalStateException("fork 중에는 next만 사용해주세요");
                 }
@@ -97,10 +109,16 @@ public class Subscription implements impements.protocol.Subscription {
                 }
 
                 executor[0].execute(() -> { /*실행 세션*/
-                    Object temp = null;
+                    Object temp;
                     try {
-                        temp = subscriber.onMap(semanticInput[0]);
-                        if (temp == null) subscriber.onNext(semanticInput[0]);
+                        temp = subscriber.onMap(input[0]);
+                        if (temp == null) {
+                            subscriber.onNext(input[0]);
+                        } else { /* MAP연산 출력을 입력으로 ASSIGN*/
+                            if (executor[0].equals(Executors.mainThread())) {
+                                input[0] = temp;
+                            } else throw new IllegalStateException("fork 중에는 next만 사용해주세요.");
+                        }
                     } catch (Exception e) { /*ERROR 핸들링 - 멀티 쓰레드*/
                         errorCount++;
                         if (errorCount == 1) {
@@ -110,16 +128,13 @@ public class Subscription implements impements.protocol.Subscription {
                             return;
                         }
                     }
-                    if (temp != null) { /* MAP연산 출력을 입력으로 ASSIGN*/
-                        if (executor[0].equals(Executors.mainThread())) semanticInput[0] = temp;
-                        else throw new IllegalStateException("fork 중에는 next만 사용해주세요.");
-                    }
-
                     /*COMPLETE 리스너*/
-                    if ((numberOfInput * subscribers.size() == methodCount && !iterator.hasNext()) || finalBackPressure / numberOfInput == 1) {
+                    if ((numberOfInput * subscribers.size() == methodCount && !iterator.hasNext())) {
                         completeCount++;
-                        if (completeCount == 1)
+                        if (completeCount == 1) {
                             handler.onComplete();
+                            methodCount = 0;
+                        }
                     }
                     doneSignal[0].countDown();
                 });
@@ -128,6 +143,7 @@ public class Subscription implements impements.protocol.Subscription {
                 handler.onError(e);
                 return;
             }
+            completeCount = 0;
         }
     }
 
