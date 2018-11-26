@@ -2,11 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed6e102-6d09-4f74-babb-6e7bfe276367" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/Flux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFlatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxNexter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/EmitSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/WithSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impliment/subscriber/DelegateSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operator/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operator/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operator/Reducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operator/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/impements/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impements/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/Executors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Flowable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Forkable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Joinable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Mappable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Predicatable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/function/Subscribable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/protocol/Processor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/protocol/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/protocol/Subscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/protocol/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/publisher/Flux.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/publisher/Mono.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/subscriber/Empty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/subscriber/With.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/Executors.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/impements/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Flowable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Forkable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Joinable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Mappable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Predicatable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/function/Subscribable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/protocol/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/protocol/Publisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/protocol/Subscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/protocol/Subscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/publisher/Flux.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/publisher/Mono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/subscriber/Empty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impements/subscriber/With.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/impements/subscription/Subscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,27 +77,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="151" />
+          <entry key="java" value="174" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="151" />
+          <entry key="JAVA" value="174" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="32" />
-          <entry key="java" value="7245" />
+          <entry key="dummy" value="40" />
+          <entry key="java" value="8911" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7245" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="JAVA" value="8911" />
+          <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -60,10 +106,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxNexter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="486">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/Flux.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/EmitSubscription.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,100 +154,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/function/Flowable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/WithSubscription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="-426">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/subscriber/With.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFlatMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/subscriber/Empty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/protocol/Publisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/protocol/Subscription.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#585#615#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/publisher/Mono.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/subscriber/DelegateSubscriber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state relative-caret-position="243">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/Executors.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/impements/publisher/Flux.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="515">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -201,25 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/_5_Concurrent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Processor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Subscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Subscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Propagatable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Predicatable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/RxExecutors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/processor/Flux.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/protocol/Flow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscription/Subscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Subscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Predicatable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Mappable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Joinable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Forkable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/rx/subscriber/Flowable.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/rx/publisher/Publisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/rx/processor/Mono.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/Flow.java" />
@@ -243,15 +252,34 @@
         <option value="$PROJECT_DIR$/src/main/java/impements/protocol/Processor.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/publisher/Flux.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/TODO.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/function/Subscribable.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/protocol/Subscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/subscriber/Empty.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/subscriber/With.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/publisher/Mono.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impements/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impements/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concept/_4_Publisher_Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impements/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/Subscription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operator/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operator/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operator/Reducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operator/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/subscriber/DelegateSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/subscription/EmitSubscription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/subscription/WithSubscription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/Flux.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxNexter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFlatMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java" />
       </list>
     </option>
   </component>
@@ -269,9 +297,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1380" />
-    <option name="height" value="1047" />
+    <option name="x" value="782" />
+    <option name="y" value="183" />
+    <option name="width" value="974" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -311,7 +340,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
+              <item name="concept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
@@ -319,8 +348,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="impliment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
@@ -328,35 +356,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
-              <item name="publisher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
-              <item name="subscriber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impements" type="462c0819:PsiDirectoryNode" />
-              <item name="subscription" type="462c0819:PsiDirectoryNode" />
+              <item name="operator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +368,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543079222319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543201481461" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Community-New/Community-mvc-spring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -379,17 +379,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\src" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impliment" />
       <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\publisher" />
       <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements" />
       <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\rx" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="operator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\src" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Reactive-Streams" />
@@ -413,11 +417,24 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="impements.Main" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="Reactive-Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="impements.*" />
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Main" />
+      <module name="Reactive-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,6 +473,32 @@
       <module name="Reactive-Streams" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="impements.Main" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Main" />
+      <module name="Reactive-Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="impements.Main" />
+      <module name="Reactive-Streams" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="impements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -477,27 +520,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_Concurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concept._5_Concurrent" />
-      <module name="Reactive-Streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application._4_Publisher_Subscriber" />
-      <item itemvalue="Application._5_Concurrent" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application._4_Publisher_Subscriber" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -515,12 +551,12 @@
       <workItem from="1542764485171" duration="1940000" />
       <workItem from="1542772677641" duration="4436000" />
       <workItem from="1542892158858" duration="26574000" />
-      <workItem from="1543035209555" duration="17684000" />
+      <workItem from="1543035209555" duration="32702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57749000" />
+    <option name="totallyTimeSpent" value="72767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,9 +569,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09808102" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -544,7 +579,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28664497" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32356134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,57 +613,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/rx/RxExecutors.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/processor/Flux.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/rx/protocol/Flow.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/publisher/Publisher.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_2_ObservablePattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_3_ConcurrentObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_4_Publisher_Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_5_Concurrent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/impements/processor/Mono.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/impements/Flow.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
@@ -704,16 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/Flow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -756,7 +730,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/impements/protocol/Subscription.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -791,6 +765,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impements/protocol/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impements/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/impements/function/Flowable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -798,31 +786,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/protocol/Publisher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="380">
+          <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#585#615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/impements/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="270">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/jdk.scripting.nashorn/jdk/nashorn/internal/runtime/regexp/joni/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#486#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
+            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#3672#3673#0" expanded="true" />
+            <element signature="e#3738#3739#0" expanded="true" />
+            <element signature="e#3774#3775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/impements/subscription/Subscription.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_3_ConcurrentObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+        <state relative-caret-position="-476">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#585#615#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_4_Publisher_Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_5_Concurrent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/rx/protocol/Flow.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/EmitSubscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/subscription/WithSubscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/subscriber/DelegateSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/Flux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxNexter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFlatMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
