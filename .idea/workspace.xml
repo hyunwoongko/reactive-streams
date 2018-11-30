@@ -2,43 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed6e102-6d09-4f74-babb-6e7bfe276367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/ThreadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/subscriber/LatchSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/BiConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/BiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Complete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schedular/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/Flux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/publisher/Flux.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/Mono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/publisher/Mono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxNexter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxNexter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxPubOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxSubOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoNexter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoNexter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoPubOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoSubOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concept/_1_IterableImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concept/_1_IterableImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concept/_1_IterableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concept/_1_IterableImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schedular/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Flux$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Flux$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Flux$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Flux$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Flux.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Flux.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Mono$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Mono$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Mono$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Mono$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/Mono.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/Mono.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/flux/FluxNexter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/operator/flux/FluxNexter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/flux/FluxPubOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/flux/FluxSubOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/mono/MonoNexter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/publisher/operator/mono/MonoNexter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/mono/MonoPubOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/publisher/operator/mono/MonoSubOn.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,43 +34,44 @@
     <session id="-104727036">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="5" />
           <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="245" />
+          <entry key="java" value="270" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="245" />
+          <entry key="JAVA" value="270" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="125" />
-          <entry key="java" value="13471" />
+          <entry key="java" value="13474" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13471" />
+          <entry key="JAVA" value="13474" />
           <entry key="PLAIN_TEXT" value="125" />
           <entry key="XML" value="8" />
         </counts>
@@ -102,99 +85,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Filter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concept/_2_ObservablePattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/ThreadUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="290">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="87">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/subscriber/LatchSubscriber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Complete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="58">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/Reducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operator/Publisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -217,11 +198,13 @@
       <find>back</find>
       <find>input</find>
       <find>view</find>
+      <find>site.namsu.sweng.rx</find>
     </findStrings>
     <replaceStrings>
       <replace>T</replace>
       <replace>&lt;T&gt; Publisher</replace>
       <replace>lock</replace>
+      <replace>implement.rx</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -230,17 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/impliment/Subscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operator/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operator/Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operator/Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operator/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/subscriber/DelegateSubscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/subscription/EmitSubscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/subscription/WithSubscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/Flux.java" />
         <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxNexter.java" />
         <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFlatMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFilter.java" />
@@ -281,6 +253,17 @@
         <option value="$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Complete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Error.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Flatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Proceeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Reducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Switcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/rx/publisher/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implement/operator/Complete.java" />
       </list>
     </option>
   </component>
@@ -297,7 +280,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="314" />
     <option name="y" value="68" />
     <option name="width" value="1178" />
@@ -308,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +324,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concept" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
+              <item name="operator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
+              <item name="publisher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
@@ -380,14 +399,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543328358525" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543619103863" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -398,22 +416,22 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\src" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\test" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impliment" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\publisher" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\rx" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="operator" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\src" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\implement" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\test" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impliment" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\publisher" />
+      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -590,12 +608,13 @@
       <workItem from="1543331336558" duration="387000" />
       <workItem from="1543331760179" duration="2703000" />
       <workItem from="1543423336984" duration="591000" />
-      <workItem from="1543539631249" duration="2197000" />
+      <workItem from="1543539631249" duration="2384000" />
+      <workItem from="1543619237277" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100241000" />
+    <option name="totallyTimeSpent" value="101023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,10 +626,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="68" width="1178" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2010772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11965812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -653,78 +672,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/Flux.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxNexter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFlatMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxReducer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/subscriber/DelegateSubscriber.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/impliment/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscription/MonoSubscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscription/FluxSubscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscription/EmitSubscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoSubOn.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/schedular/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxSubOn.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxPubOn.java" />
@@ -919,6 +866,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Complete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
