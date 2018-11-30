@@ -1,8 +1,9 @@
 package test.publisher;
 
-import test.publisher.operator.flux.FluxPubOn;
-import test.publisher.operator.flux.FluxSubOn;
-import test.publisher.operator.mono.*;
+import test.publisher.operator.mono.MonoFilter;
+import test.publisher.operator.mono.MonoMapper;
+import test.publisher.operator.mono.MonoNexter;
+import test.publisher.operator.mono.MonoReducer;
 import test.subscription.EmitSubscription;
 import test.subscription.MonoSubscription;
 
@@ -54,15 +55,6 @@ public class Mono<T> implements Flow.Publisher<T> {
 
     public Mono<T> next(Consumer<T> consumer) {
         return new MonoNexter<>(this, consumer);
-    }
-
-
-    public Mono<T> subscribeOn() {
-        return new MonoSubOn<>(this);
-    }
-
-    public Mono<T> publishOn() {
-        return new MonoPubOn<>(this);
     }
 
     @Override public void subscribe(Flow.Subscriber<? super T> subscriber) {

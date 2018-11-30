@@ -26,8 +26,8 @@ public class FluxNexter<T> extends Flux<T> {
             }
 
             @Override public void onNext(T item) {
-                consumer.accept(item);
                 subscriber.onNext(item);
+                consumer.accept(item);
             }
 
             @Override public void onError(Throwable throwable) {

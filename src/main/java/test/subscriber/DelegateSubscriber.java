@@ -11,7 +11,7 @@ public class DelegateSubscriber<T> implements Flow.Subscriber<T> {
 
     private final long backPressure;
 
-    public DelegateSubscriber(long backPressure) {
+    DelegateSubscriber(long backPressure) {
         this.backPressure = backPressure;
     }
 

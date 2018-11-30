@@ -1,6 +1,9 @@
 package test.publisher;
 
-import test.publisher.operator.flux.*;
+import test.publisher.operator.flux.FluxFilter;
+import test.publisher.operator.flux.FluxMapper;
+import test.publisher.operator.flux.FluxNexter;
+import test.publisher.operator.flux.FluxReducer;
 import test.subscription.EmitSubscription;
 import test.subscription.FluxSubscription;
 
@@ -54,14 +57,6 @@ public class Flux<T> implements Flow.Publisher<T> {
 
     public Flux<T> next(Consumer<T> consumer) {
         return new FluxNexter<>(this, consumer);
-    }
-
-    public Flux<T> subscribeOn() {
-        return new FluxSubOn<>(this);
-    }
-
-    public Flux<T> publishOn() {
-        return new FluxPubOn<>(this);
     }
 
     @Override public void subscribe(Flow.Subscriber<? super T> subscriber) {

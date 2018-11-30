@@ -16,11 +16,9 @@ public class _1_IterableImpl {
                 new Iterator<>() {
                     int i = 0;
                     final static int max = 30;
-
                     public boolean hasNext() {
                         return i < max;
                     }
-
                     public Integer next() {
                         return i++;
                     }
