@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed6e102-6d09-4f74-babb-6e7bfe276367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/BiConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/BiFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/function/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Complete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="6e93fa54-eaa4-432a-9d46-9e864a1e9f50" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,121 +9,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-104727036">
+    <session id="-799943562">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="5" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="270" />
-          <entry key="xml" value="3" />
+          <entry key="HelloClojure" value="1" />
+          <entry key="clj" value="1" />
+          <entry key="java" value="16" />
+          <entry key="scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="270" />
-          <entry key="XML" value="3" />
+          <entry key="Clojure" value="2" />
+          <entry key="JAVA" value="16" />
+          <entry key="Scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="125" />
-          <entry key="java" value="13474" />
-          <entry key="xml" value="8" />
+          <entry key="HelloClojure" value="4" />
+          <entry key="clj" value="30" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13474" />
-          <entry key="PLAIN_TEXT" value="125" />
-          <entry key="XML" value="8" />
+          <entry key="Clojure" value="34" />
+          <entry key="JAVA" value="274" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileColors">
-    <fileColor scope="Local Unit Tests" color="bbff7e" />
-    <fileColor scope="Android Instrumented Tests" color="bbff7e" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Filter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Empty.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="e#415#714#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Mono.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#420#706#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,28 +91,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java">
+        <entry file="file://$PROJECT_DIR$/Scala/src/Abstract.scala">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scala/src/Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-377" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Complete.java">
+        <entry file="file://$PROJECT_DIR$/Clojure/HelloClojure">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="232">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/subscription/Subscription.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Publisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Flux.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="e#715#1006#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reactive/src/operator/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -186,84 +158,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Clojure Namespace" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>? super T</find>
-      <find>Publisher&lt;T&gt;</find>
-      <find>onComplete</find>
-      <find>lock</find>
-      <find>back</find>
-      <find>input</find>
-      <find>view</find>
-      <find>site.namsu.sweng.rx</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>T</replace>
-      <replace>&lt;T&gt; Publisher</replace>
-      <replace>lock</replace>
-      <replace>implement.rx</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxNexter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFlatMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/rx/publisher/flux/operater/FluxFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/publisher/flux/operater/FluxFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/subscriber/DelegateSubscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/impliment/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoNexter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Flux.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxNexter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Mono.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/subscription/EmitSubscription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/schedular/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxPubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/FluxSubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoPubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/operater/MonoSubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/mon/MonoSubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoSubscribeOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxSubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoSubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxPubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoPubOn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoNexter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxNexter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/executor/Executor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/subscriber/BackgrounSubscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/Flux.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/publisher/Mono.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/subscriber/PubOnSubscrber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/ThreadUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/functional/LambdaFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Filter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Complete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Error.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Flatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Proceeder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/operator/Switcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/rx/publisher/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implement/operator/Complete.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/operator/Filter.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/publisher/Flux.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/publisher/Empty.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/publisher/Mono.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/publisher/T.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/T.java" />
+        <option value="$PROJECT_DIR$/Reactive/src/implement/Test.java" />
+        <option value="$PROJECT_DIR$/Clojure/HelloLisp.clj" />
+        <option value="$PROJECT_DIR$/Clojure/HelloClojure" />
       </list>
     </option>
   </component>
@@ -273,17 +183,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="314" />
-    <option name="y" value="68" />
-    <option name="width" value="1178" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -291,147 +193,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clojure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="implement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="implement" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="implement" type="462c0819:PsiDirectoryNode" />
-              <item name="publisher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="implement" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="subscriber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reactive-Streams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reactive-Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="subscription" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543619103863" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544722790595" />
+    <property name="cursive.last.file.extension.C\:/Users/ASUS/Desktop/Github/FunctionalReactiveProgramming/clojure" value="clj" />
+    <property name="jdk.selected.JAVA_MODULE" value="Java 11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\src" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="operator" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\implement" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\test" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impliment" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements\publisher" />
-      <recent name="C:\Users\ASUS\Desktop\Github\Reactive-Streams\src\main\java\impements" />
+      <recent name="C:\Users\ASUS\Desktop\Github\FunctionalReactiveProgramming\Scala\src" />
+      <recent name="C:\Users\ASUS\Desktop\Github\FunctionalReactiveProgramming\Reactive\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,13 +250,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="LambdaFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.LambdaFunction" />
-      <module name="Reactive-Streams" />
+  <component name="RunManager" selected="Application.Container_List">
+    <configuration name="Container_List" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Container_List" />
+      <module name="scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implement.Test" />
+      <module name="reactive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.*" />
+          <option name="PATTERN" value="implement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,125 +278,124 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="schedular.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="schedular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="HelloClojure" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure" />
+      <setting name="path" value="$PROJECT_DIR$/Clojure/HelloClojure" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/Clojure" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="impements.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="impements.Main" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="hello" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure" />
+      <setting name="path" value="$PROJECT_DIR$/clojure/hello.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/clojure" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.publisher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="impements.Main" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="impements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="_1_IterableImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concept._1_IterableImpl" />
-      <module name="Reactive-Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.LambdaFunction" />
-      <item itemvalue="Application._1_IterableImpl" />
+      <item itemvalue="Clojure Application.HelloClojure" />
+      <item itemvalue="Clojure Application.hello" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Container_List" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application._1_IterableImpl" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.LambdaFunction" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Container_List" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Clojure Application.hello" />
+        <item itemvalue="Clojure Application.HelloClojure" />
       </list>
     </recent_temporary>
   </component>
@@ -587,69 +404,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ed6e102-6d09-4f74-babb-6e7bfe276367" name="Default Changelist" comment="" />
-      <created>1542736682583</created>
+      <changelist id="6e93fa54-eaa4-432a-9d46-9e864a1e9f50" name="Default Changelist" comment="" />
+      <created>1544721597072</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542736682583</updated>
-      <workItem from="1542736685968" duration="7115000" />
-      <workItem from="1542764485171" duration="1940000" />
-      <workItem from="1542772677641" duration="4436000" />
-      <workItem from="1542892158858" duration="26574000" />
-      <workItem from="1543035209555" duration="39810000" />
-      <workItem from="1543226838490" duration="11648000" />
-      <workItem from="1543326527907" duration="808000" />
-      <workItem from="1543328448583" duration="89000" />
-      <workItem from="1543328605023" duration="77000" />
-      <workItem from="1543328720860" duration="253000" />
-      <workItem from="1543329023577" duration="103000" />
-      <workItem from="1543329165276" duration="605000" />
-      <workItem from="1543330023462" duration="905000" />
-      <workItem from="1543331336558" duration="387000" />
-      <workItem from="1543331760179" duration="2703000" />
-      <workItem from="1543423336984" duration="591000" />
-      <workItem from="1543539631249" duration="2384000" />
-      <workItem from="1543619237277" duration="595000" />
+      <updated>1544721597072</updated>
+      <workItem from="1544721600566" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101023000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11965812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19925214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14440826" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Sequence" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32681867" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.27995643" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50213677" side_tool="true" weight="0.3838604" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49839744" weight="0.3293348" />
+      <window_info anchor="right" id="REPL" side_tool="true" />
+      <window_info anchor="right" id="Leiningen" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -658,11 +455,12 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Graphical Navigator" order="6" type="SLIDING" />
       <window_info anchor="right" id="UML Diagrams" order="7" type="SLIDING" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32959402" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,332 +470,116 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/schedular/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxSubOn.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxPubOn.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoPubOn.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/mono/MonoNexter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/operator/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/operator/flux/FluxNexter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/function/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/Mono.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/operator/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscriber/PubOnSubscrber.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/publisher/Flux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/operator/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="142" column="6" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/concept/_4_Publisher_Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="895" column="16" selection-start-line="895" selection-start-column="16" selection-end-line="895" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/operator/Filter.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functional/LambdaFunction.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_3_ConcurrentObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_4_Publisher_Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_5_Concurrent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="145" column="41" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_1_IterableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concept/_2_ObservablePattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/ThreadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscriber/DelegateSubscriber.java">
+    <entry file="file://$PROJECT_DIR$/Reactive/src/operator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operator/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/subscriber/LatchSubscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/BiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Filter.java">
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Flux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#715#1006#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Flatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Proceeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Switcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/publisher/Publisher.java">
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Empty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#415#714#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/publisher/Mono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#420#706#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/subscription/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reactive/src/implement/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/scheduler/Scheduler.java">
+    <entry file="file://$PROJECT_DIR$/Scala/src/Abstract.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clojure/HelloLisp.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/subscription/Subscription.java">
+    <entry file="file://$PROJECT_DIR$/Scala/src/Function.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-377" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implement/operator/Complete.java">
+    <entry file="file://$PROJECT_DIR$/Clojure/HelloClojure">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="232">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1042,7 +624,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android API 28 Platform</last-edited>
+          <last-edited>Android API 26 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1054,7 +636,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Reactive-Streams</last-edited>
+          <last-edited>Clojure</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1067,7 +649,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.projectlombok:lombok:1.18.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Reactive-Streams.iml" filepath="$PROJECT_DIR$/Reactive-Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clojure/clojure.iml" filepath="$PROJECT_DIR$/clojure/clojure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive/reactive.iml" filepath="$PROJECT_DIR$/reactive/reactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala/scala.iml" filepath="$PROJECT_DIR$/scala/scala.iml" />
     </modules>
   </component>
 </project>
