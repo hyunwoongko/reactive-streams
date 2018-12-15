@@ -10,8 +10,6 @@ width="720" height="320" />
 <img src="https://user-images.githubusercontent.com/38183241/50037792-48cc9580-0058-11e9-8a21-c8579a0020a5.png" 
 width="720" height="480" />
 
-<br>
-<br>
 
 ## 2. Implement my own Reactive-Streams framework
 <img src="https://user-images.githubusercontent.com/38183241/50036449-5f6cef80-004c-11e9-983d-e5db978c49f6.png" 
