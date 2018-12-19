@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e93fa54-eaa4-432a-9d46-9e864a1e9f50" name="Default Changelist" comment="" />
+    <list default="true" id="6e93fa54-eaa4-432a-9d46-9e864a1e9f50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/clojure/basic.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clojure/function.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clojure/type.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojure/clojure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure/clojure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive/reactive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive/reactive.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/AnonymousFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/AnonymousFunction.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +59,39 @@
     <session id="1228433968">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="clj" value="2" />
+          <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="scala" value="2" />
+          <entry key="scala" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Clojure" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="2" />
+          <entry key="Scala" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="12" />
+          <entry key="clj" value="11" />
+          <entry key="scala" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="12" />
+          <entry key="Clojure" value="11" />
+          <entry key="Scala" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -82,51 +99,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactive/src/implement/Test.java">
+        <entry file="file://$PROJECT_DIR$/scala/src/Constructor.scala">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scala/src/AnonymousFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/src/Test.scala">
+        <entry file="file://$PROJECT_DIR$/clojure/hello.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/src/Container_List.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="58">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reactive/src/operator/Mapper.java">
+        <entry file="file://$PROJECT_DIR$/clojure/basic.clj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clojure/clojure.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="261">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/src/Abstract.scala">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/src/Function.scala">
+        <entry file="file://$PROJECT_DIR$/scala/src/Variable.scala">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -151,8 +161,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reactive/src/implement/publisher/Flux.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
+            <state relative-caret-position="957">
               <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="e#1600#1601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,6 +205,8 @@
         <option value="$PROJECT_DIR$/Clojure/HelloLisp.clj" />
         <option value="$PROJECT_DIR$/Clojure/HelloClojure" />
         <option value="$PROJECT_DIR$/scala/src/Test.scala" />
+        <option value="$PROJECT_DIR$/scala/src/AnonymousFunction.scala" />
+        <option value="$PROJECT_DIR$/clojure/hello.clj" />
       </list>
     </option>
   </component>
@@ -201,8 +216,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
+    <option name="y" value="99" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -217,34 +233,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clojure" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalReactiveProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalReactive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544723252401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545182618331" />
     <property name="cursive.last.file.extension.C\:/Users/ASUS/Desktop/Github/FunctionalReactiveProgramming/clojure" value="clj" />
     <property name="jdk.selected.JAVA_MODULE" value="Java 11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Genetic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -254,6 +270,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Github\FunctionalReactive\clojure" />
       <recent name="C:\Users\ASUS\Desktop\Github\FunctionalReactiveProgramming\Scala\src" />
       <recent name="C:\Users\ASUS\Desktop\Github\FunctionalReactiveProgramming\Reactive\src" />
     </key>
@@ -270,7 +287,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Container_List">
+  <component name="RunManager" selected="Application.AnonymousFunction">
+    <configuration name="AnonymousFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousFunction" />
+      <module name="scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Container_List" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Container_List" />
       <module name="scala" />
@@ -314,18 +338,6 @@
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloClojure" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clojure" />
-      <setting name="path" value="$PROJECT_DIR$/Clojure/HelloClojure" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/Clojure" />
       <method v="2" />
     </configuration>
     <configuration name="hello" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -403,19 +415,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Clojure Application.HelloClojure" />
       <item itemvalue="Clojure Application.hello" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Container_List" />
+      <item itemvalue="Application.AnonymousFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousFunction" />
         <item itemvalue="Application.Container_List" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Clojure Application.hello" />
-        <item itemvalue="Clojure Application.HelloClojure" />
       </list>
     </recent_temporary>
   </component>
@@ -431,16 +443,19 @@
       <updated>1544721597072</updated>
       <workItem from="1544721600566" duration="868000" />
       <workItem from="1544722749387" duration="654000" />
+      <workItem from="1544889110616" duration="805000" />
+      <workItem from="1545148644831" duration="785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1522000" />
+    <option name="totallyTimeSpent" value="3112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="62" y="99" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09668803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1989011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,6 +496,8 @@
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="Leiningen" order="14" />
       <window_info anchor="right" id="REPL" order="15" side_tool="true" />
+      <window_info anchor="right" id="R Packages" order="16" />
+      <window_info anchor="right" id="R Graphics" order="17" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,9 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#1088#1089#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,10 +544,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reactive/src/implement/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/Container_List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scala/src/Abstract.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scala/src/Function.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactive/src/operator/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/Type.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/Constructor.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/AnonymousFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/src/Variable.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/reactive/src/implement/subscription/Subscription.java">
@@ -552,8 +617,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reactive/src/implement/publisher/Flux.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
+        <state relative-caret-position="957">
           <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,36 +632,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reactive/src/implement/Test.java">
+    <entry file="file://$PROJECT_DIR$/clojure/clojure.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala/src/Test.scala">
+    <entry file="file://$PROJECT_DIR$/clojure/hello.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala/src/Container_List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reactive/src/operator/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/clojure/basic.clj">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
