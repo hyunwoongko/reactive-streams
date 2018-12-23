@@ -1,7 +1,7 @@
 # Functional-Reactive
 <br>
 
-## 1. Study functional programming with Scala, Haskell, Clojure 
+## 1. Study functional programming with Scala
 <img src="https://user-images.githubusercontent.com/38183241/50036763-db683700-004e-11e9-99f0-b07e2e0467d6.png" 
 width="720" height="320" />
 
