@@ -1,4 +1,4 @@
-# Functional-Reactive-Programming
+# Functional-Programming
 <br>
 
 ## 1. Study functional programming with Scala
