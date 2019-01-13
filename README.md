@@ -12,6 +12,20 @@
 <br>
 <br>
 
+## 0. Getting Statred
+
+### [Download Jar file Here](https://github.com/gusdnd852/Reactive-Streams/raw/master/out/artifacts/Reactive_Streams_jar/Reactive-Streams.jar)
+<br>
+
+Add the jar file to your project dependency. It is not a high-quality framework, <br> 
+so I don't have any plan to distribute it as maven or gradle.
+
+<br>
+<br>
+<br>
+<br>
+
+
 ## 1. Reactive-Streams Framework
 
 This is a reactive streams protocol implementation framework <br>
@@ -36,10 +50,23 @@ even if you do not create a Subscriber.
 // Create Subscriber
 
 Flow.Subscriber<Integer> subscriber = new Flow.Subscriber<>() {
-            @Override public void onSubscribe(Flow.Subscription subscription) {subscription.request(Long.MAX_VALUE);}
-            @Override public void onNext(Integer item) {System.out.println(item + " : " + Thread.currentThread().getName());}
-            @Override public void onError(Throwable throwable) {}
-            @Override public void onComplete() {}};
+            @Override public void onSubscribe(Flow.Subscription subscription) {
+                subscription.request(Long.MAX_VALUE);
+                System.out.println("onSubscribe : " + Thread.currentThread().getName());
+            }
+            
+            @Override public void onNext(Integer item) {
+                System.out.println("onNext : " + item + " : " + Thread.currentThread().getName());
+            }
+            
+            @Override public void onError(Throwable throwable) {
+                System.out.println("onError : " + "throwable.getMessage()" + Thread.currentThread().getName());
+            }
+
+            @Override public void onComplete() {
+                System.out.println("onComplete : " + Thread.currentThread().getName());        
+            }
+};
         
 ```
 
@@ -167,7 +194,7 @@ There are some examples in the code below.
 ```java
     public ExamplesDto select(ExamplesDto dto) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("select * from table where primaryKey=?")
+                .quary("select * from table where primaryKey = ?")
                 .param(statement -> statement.setString(1, dto.getPrimaryKey()))
                 .map(set -> ExamplesDto.builder()
                         .primaryKey(set.getString("primaryKey"))
@@ -196,15 +223,16 @@ There are some examples in the code below.
 
     public boolean update(ExamplesDto dto, final String property, final String value) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("update table set " + property + " = ?" + "where  primaryKey = ?")
-                .param(statement -> statement.setString(1, value))
-                .param(statement -> statement.setString(2, dto.getPrimaryKey()))
+                .quary("update table set ? = ? where  primaryKey = ?")
+                .param(statement -> statement.setString(1, property))
+                .param(statement -> statement.setString(2, value))
+                .param(statement -> statement.setString(3, dto.getPrimaryKey()))
                 .set();
     }
 
     public boolean delete(ExamplesDto dto) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("delete from table where + ?")
+                .quary("delete from table where primaryKey = ?")
                 .param(statement -> statement.setString(1, dto.getPrimaryKey()))
                 .set();
     }
