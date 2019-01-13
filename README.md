@@ -155,9 +155,9 @@ The following is the procedure for creating DAO class methods.
 3. Accessor use PreparedStatement. If you need to include Java syntax between sql, you can use the param().
 4. Use the map() to decide how to receive the data. If you don't return data, you don't need to call it.
 5. The flow is terminated by calling one of the methods below.
-   * set() is used when you are entering data into the database.
    * getOnce() is used when you receive single data. You need to specify type that will be returned.
    * getList() is used when you receive return multiplr data. You need to specify type that will be returned.
+   * set() is used when you are entering data into the database.
   
   
 <br>
@@ -210,3 +210,4 @@ There are some examples in the code below.
     }
 
 ```
+
