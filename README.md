@@ -50,10 +50,23 @@ even if you do not create a Subscriber.
 // Create Subscriber
 
 Flow.Subscriber<Integer> subscriber = new Flow.Subscriber<>() {
-            @Override public void onSubscribe(Flow.Subscription subscription) {subscription.request(Long.MAX_VALUE);}
-            @Override public void onNext(Integer item) {System.out.println(item + " : " + Thread.currentThread().getName());}
-            @Override public void onError(Throwable throwable) {}
-            @Override public void onComplete() {}};
+            @Override public void onSubscribe(Flow.Subscription subscription) {
+                subscription.request(Long.MAX_VALUE);
+                System.out.println("onSubscribe : " + Thread.currentThread().getName());
+            }
+            
+            @Override public void onNext(Integer item) {
+                System.out.println("onNext : " + item + " : " + Thread.currentThread().getName());
+            }
+            
+            @Override public void onError(Throwable throwable) {
+                System.out.println("onError : " + "throwable.getMessage()" + Thread.currentThread().getName());
+            }
+
+            @Override public void onComplete() {
+                System.out.println("onComplete : " + Thread.currentThread().getName());        
+            }
+};
         
 ```
 
