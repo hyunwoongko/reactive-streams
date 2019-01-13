@@ -49,7 +49,7 @@ The operators currently implemented in this repository are map, reduce, flatmap,
 <br>
 
 map(), filter(), reduce() provide the same functionality as those included in RxJava or Java8's Stream API, <br>
-and next(), complete(), and error() provide the same functionality as RxJava's doOnNext(), doOnComplete(), doOnError()
+next(), complete(), error() provide the same functionality as RxJava's doOnNext(), doOnComplete(), doOnError()
 
 ```java
 // Create Publisher
