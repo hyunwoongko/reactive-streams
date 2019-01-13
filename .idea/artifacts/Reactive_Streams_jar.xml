@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Reactive-Streams:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Reactive_Streams_jar</output-path>
+    <root id="archive" name="Reactive-Streams.jar">
+      <element id="module-output" name="Reactive-Streams" />
+    </root>
+  </artifact>
+</component>

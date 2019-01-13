@@ -33,8 +33,7 @@ public class Publisher<T> implements Flow.Publisher<T> {
         }
         return new Publisher<>() {
             @Override public void subscribe(Flow.Subscriber<? super T> subscriber) {
-                Pool.main()
-                        .execute(() -> subscriber.onSubscribe(new Subscription<>(subscriber, inputAsList)));
+                Pool.main().execute(() -> subscriber.onSubscribe(new Subscription<>(subscriber, inputAsList)));
             }
         };
     }
@@ -50,8 +49,7 @@ public class Publisher<T> implements Flow.Publisher<T> {
         }
         return new Publisher<>() {
             @Override public void subscribe(Flow.Subscriber<? super T> subscriber) {
-                Pool.background()
-                        .execute(() -> subscriber.onSubscribe(new Subscription<>(subscriber, inputAsList)));
+                Pool.background().execute(() -> subscriber.onSubscribe(new Subscription<>(subscriber, inputAsList)));
             }
         };
     }
