@@ -92,9 +92,11 @@ next(), complete(), error() provide the same functionality as RxJava's doOnNext(
                 .subscribe(subscriber);
 
 // Ouput : 
-// 6 : main
-// 8 : main
-// 10 : main
+// onSubscribe : main
+// onNext : 6 : main
+// onNext : 8 : main
+// onNext : 10 : main
+// onComplete : main
 ```
 
 <br>
@@ -114,9 +116,11 @@ This provides similar functionality to SubscribeOn() provided by RxJava, and obs
                 .subscribe(subscriber);
 
 // Ouput : 
-// 6 : pool-1-thread-1
-// 8 : pool-1-thread-1
-// 10 : pool-1-thread-1
+// onSubscribe : pool-1-thread-1
+// onNext : 6 : pool-1-thread-1
+// onNext : 8 : pool-1-thread-1
+// onNext : 10 : pool-1-thread-1
+// onComplete : pool-1-thread-1
 ```
 
 Publisher created with the background() method selects one of 16 random thread pools and proceeds to work
