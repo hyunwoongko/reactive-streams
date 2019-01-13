@@ -9,22 +9,18 @@
 
 ## 1. Reactive-Streams Framework
 
-This is a reactive streams protocol implementation framework 
-included in the java.util.concurrent.Flow class, which is included since Java 9. 
-I implemented the Publisher and Subscription that I would actually use, 
-and the Subscriber used what was in the Flow class, 
+This is a reactive streams protocol implementation framework <br>
+included in the java.util.concurrent.Flow class, which is included since Java 9. <br>
+<br>
+I implemented the Publisher and Subscription that I would actually use, <br> 
+and the Subscriber used what was in the Flow class, <br>
 and did not implement the processor interface because it was not needed. <br>
 
 <br>
 <br>
 
-### 1.1 Usage
-
-You can see some usage through the example below
-
-<br>
-
-You must first create the necessary Flow.Subscriber. but, if you are using the Spring Framework or SpringBoot, 
+### 1.1 Create Subscriber
+You must first create the necessary Flow.Subscriber. but, if you are using the Spring Framework or SpringBoot, <br>
 add the [Reactor](https://mvnrepository.com/artifact/io.projectreactor/reactor-core/3.2.5.RELEASE) 
 to the your project dependency and annotate @RestController. Then Spring Framework will automatically generate it 
 even if you do not create a Subscriber.
@@ -43,8 +39,8 @@ Flow.Subscriber<Integer> subscriber = new Flow.Subscriber<>() {
 <br>
 <br>
 
-And you have to create a Publisher to create a flow of data. 
-You can combine several operators as shown in the code below. 
+### 1.2 Create Publisher
+And you have to create a Publisher to create a flow of data. You can combine several operators as shown in the code below. <br> 
 The operators currently implemented in this repository are map, reduce, flatmap, next, complete, error.
 <br>
 
@@ -68,8 +64,9 @@ next(), complete(), error() provide the same functionality as RxJava's doOnNext(
 <br>
 <br>
 
-If you want to run this lfow asynchronously in the background, 
-you can create a Publisher with background() instead of main().
+### 3. Background thread scheduling
+If you want to run this lfow asynchronously in the background, you can create a Publisher with background() instead of main(). <br> 
+This provides similar functionality to SubscribeOn() provided by RxJava, and observeOn() is not currently implemented in the repository. <br>
 
 
 ```java
