@@ -116,9 +116,9 @@ You have to create the Information class. The Information class is a VO class th
 
 ```java
 class Info {
-    static final String url = "yourDatabaseUrl";
-    static final String id = "yourDatabaseId";
-    static final String pw = "yourDatabasePw";
+    public static final String url = "yourDatabaseUrl";
+    public static final String id = "yourDatabaseId";
+    public static final String pw = "yourDatabasePw";
 }
 ```
 
