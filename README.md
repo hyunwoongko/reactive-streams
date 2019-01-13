@@ -102,7 +102,7 @@ Publisher.main(1, 2, 3, 4, 5)
 
 ### 1.3. Background thread scheduling
 If you want to run this lfow asynchronously in the background, you can create a Publisher with background() instead of main(). <br> 
-This provides similar functionality to SubscribeOn() provided by RxJava, and observeOn() is not currently implemented in the repository. <br>
+This provides similar functionality to subscribeOn() provided by RxJava, and observeOn() is not currently implemented in the repository. <br>
 
 
 ```java
@@ -224,7 +224,7 @@ There are some examples in the code below.
 
     public boolean update(ExamplesDto dto, final String property, final String value) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("update table set ? = ? where  primaryKey = ?")
+                .quary("update table set ? = ? where primaryKey = ?")
                 .param(statement -> statement.setString(1, property))
                 .param(statement -> statement.setString(2, value))
                 .param(statement -> statement.setString(3, dto.getPrimaryKey()))
