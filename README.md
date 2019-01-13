@@ -50,8 +50,8 @@ even if you do not create a Subscriber.
 // Create Subscriber
 Flow.Subscriber<Integer> subscriber = new Flow.Subscriber<>() {
             @Override public void onSubscribe(Flow.Subscription subscription) {
-                subscription.request(Long.MAX_VALUE);
                 System.out.println("onSubscribe : " + Thread.currentThread().getName());
+                subscription.request(Long.MAX_VALUE);
             }
             
             @Override public void onNext(Integer item) {
