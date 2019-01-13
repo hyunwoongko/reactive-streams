@@ -181,7 +181,7 @@ There are some examples in the code below.
 ```java
     public ExamplesDto select(ExamplesDto dto) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("select * from table where primaryKey=?")
+                .quary("select * from table where primaryKey = ?")
                 .param(statement -> statement.setString(1, dto.getPrimaryKey()))
                 .map(set -> ExamplesDto.builder()
                         .primaryKey(set.getString("primaryKey"))
@@ -210,15 +210,16 @@ There are some examples in the code below.
 
     public boolean update(ExamplesDto dto, final String property, final String value) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("update table set " + property + " = ?" + "where  primaryKey = ?")
-                .param(statement -> statement.setString(1, value))
-                .param(statement -> statement.setString(2, dto.getPrimaryKey()))
+                .quary("update table set ? = ? where  primaryKey = ?")
+                .param(statement -> statement.setString(1, property))
+                .param(statement -> statement.setString(2, value))
+                .param(statement -> statement.setString(3, dto.getPrimaryKey()))
                 .set();
     }
 
     public boolean delete(ExamplesDto dto) {
         return install(Info.url, Info.id, Info.pw)
-                .quary("delete from table where + ?")
+                .quary("delete from table where primaryKey = ?")
                 .param(statement -> statement.setString(1, dto.getPrimaryKey()))
                 .set();
     }
