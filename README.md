@@ -13,7 +13,6 @@
 <br>
 
 ## 0. Getting Statred
-<br>
 
 ### [Download Jar file Here](https://github.com/gusdnd852/Reactive-Streams/raw/master/out/artifacts/Reactive_Streams_jar/Reactive-Streams.jar)
 <br>
