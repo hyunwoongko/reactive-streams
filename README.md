@@ -19,7 +19,7 @@
 <br>
 
 Add the jar file to your project dependency. It is not a high-quality framework, <br> 
-and I don't have any plan to distribute it as maven or gradle.
+so I don't have any plan to distribute it as maven or gradle.
 
 <br>
 <br>
