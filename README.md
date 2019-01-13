@@ -48,7 +48,6 @@ even if you do not create a Subscriber.
 
 ```java
 // Create Subscriber
-
 Flow.Subscriber<Integer> subscriber = new Flow.Subscriber<>() {
             @Override public void onSubscribe(Flow.Subscription subscription) {
                 subscription.request(Long.MAX_VALUE);
@@ -85,11 +84,10 @@ next(), complete(), error() provide the same functionality as RxJava's doOnNext(
 
 ```java
 // Create Publisher
-
-    Publisher.main(1, 2, 3, 4, 5)
-                .filter(number -> number > 2)
-                .map(number -> number * 2)
-                .subscribe(subscriber);
+Publisher.main(1, 2, 3, 4, 5)
+         .filter(number -> number > 2)
+         .map(number -> number * 2)
+         .subscribe(subscriber);
 
 // Ouput : 
 // onSubscribe : main
@@ -109,11 +107,10 @@ This provides similar functionality to SubscribeOn() provided by RxJava, and obs
 
 ```java
 // Create Publisher
-
-    Publisher.background(1, 2, 3, 4, 5)
-                .filter(number -> number > 2)
-                .map(number -> number * 2)
-                .subscribe(subscriber);
+Publisher.background(1, 2, 3, 4, 5)
+         .filter(number -> number > 2)
+         .map(number -> number * 2)
+         .subscribe(subscriber);
 
 // Ouput : 
 // onSubscribe : pool-1-thread-1
