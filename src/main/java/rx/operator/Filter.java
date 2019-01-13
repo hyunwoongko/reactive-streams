@@ -31,8 +31,6 @@ public class Filter<T> extends Publisher<T> {
                 try {
                     if (predicate.test(item)) {
                         subscriber.onNext(item);
-                    } else {
-                         subscriber.onComplete();
                     }
                 } catch (Exception e) {
                     subscriber.onError(e);
